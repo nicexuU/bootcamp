@@ -1,0 +1,45 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Camille08
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 94-E2-3C-6E-60-69
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 96-E2-3C-6E-60-68
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX200 160MHz
+   Physical Address. . . . . . . . . : 94-E2-3C-6E-60-68
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::ae55:850f:a2de:78f1%16(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.254.119(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, November 7, 2023 12:54:49 PM
+   Lease Expires . . . . . . . . . . : Friday, November 10, 2023 9:44:55 AM
+   Default Gateway . . . . . . . . . : 192.168.254.254
+   DHCP Server . . . . . . . . . . . : 192.168.254.254
+   DHCPv6 IAID . . . . . . . . . . . : 127197756
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2C-C7-B9-10-94-E2-3C-6E-60-68
+   DNS Servers . . . . . . . . . . . : 192.168.254.254
+   NetBIOS over Tcpip. . . . . . . . : Enabled

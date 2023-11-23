@@ -1,0 +1,133 @@
+body {
+    font-family: 'Tahoma';
+    margin: 0px;
+    background-image: url(img/grainy-white-paper.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #nav-bar {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 100%;
+  }
+  #nav-bar-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 5px 0px;
+  }
+  #nav-bar:hover{
+    background-color: rgb(0, 0, 139)
+  }
+  
+  #banner {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #ministries-section {
+    text-align: center;
+  }
+  
+  #ministries-text {
+    color: rgb(70, 130, 180);
+    font-size: 250%;
+  }
+  
+  #free-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  #free-image {
+    width: 350px;
+    margin-right: 20px;
+  }
+  
+  #free-title {
+    font-size: 200%;
+    color: rgb(70, 130, 180);
+  }
+  
+  #free-action {
+    margin-bottom: 50px;
+  }
+  
+  #free-link {
+    color: blue;
+    font-size: 200%;
+  }
+  #free-link:visited{
+    color: orange;
+  }
+  #free-link:hover{
+    color: magenta;
+  }
+  #free-link:active{
+    color: lime;
+  }
+  #other-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  #other-center {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .ministries:hover{
+    color: rgb(250, 198, 101);
+  }
+  #other-title {
+    font-size: 100%;
+    margin: 0px;
+  }
+  
+  table,td,th {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+  }
+  tr:nth-child(even) {
+    background-color: #d2d0d0;
+
+  }
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+
+  }
+  #bottom-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px 0px ;
+    color: black;
+  }
+  .img-bottom{
+    padding: 0px 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(160, 160, 160);
+  }
+  
+  .footer-link {
+    color: rgb(160, 160, 160);
+  }
+  
+  #footer-bottom {
+    font-size: 75%;
+  }

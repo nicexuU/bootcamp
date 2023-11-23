@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Form</title>
+</head>
+<body>
+    <h1>Voter Registration</h1>
+    <form action="" method="">
+        <label for="first_name">First name: </label>
+        <input type="text" id="first_name" placeholder="ex. ian" required/><br />
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" placeholder="ex. Cuasay"/><br />
+
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="ex. juandelacruz01@gmail.com"/><br />
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="input password"/><br />
+
+        <label for="confirm_password">Confirm Password: </label>
+        <input type="password" id="confirm_password" placeholder="re-enter password"/><br />
+
+        <label for="birthday">Birthdate: </label>
+        <input type="date" id="birthday"/><br />
+
+        <label for="no_of_children">Number of children: </label>
+        <input type="number" id="no_of_children" placeholder="ex. 1" min="0" max="99"/><br />
+
+        <label for="excitement">How excited are you to vote?</label>
+        <input type="range" id="excitement"/><br />
+
+        <label for="civil_status">Civil Status</label>
+        <select name="civil_status" id="civil_status">
+          <option disabled selected>options</option>
+          <option value="single">Single</option>
+          <option value="married">married</option>
+          <option value="separated">Separated</option>
+          <option value="widowed">Widowed</option>
+          <option value="other">Other</option>
+        </select><br />
+
+        <label for="pic_voter_id">Upload picture of voter id: </label>
+        <input type="file" id="pic_voter_id"><br />
+
+        <label for="driver_license">Driver's license:</label>
+        <input type="text" id="driver_license" placeholder="ex. A00-00-0000000" maxlength="13" minlength="13" required><br />
+        
+        <input type="submit"/>
+
+        </form>
+        <h1>Your Ballot</h1>
+        <form>
+        <h2>President</h2>
+        <input
+        type="radio"
+        name="president"
+        value="lelouch_britannia"
+        id="president1"
+        />
+        <label for="president1">Lelouch Vi Britannia</label><br />
+
+        <input
+        type="radio"
+        name="president"
+        value="eren_jaeger"
+        id="president2"
+        checked
+        />
+        <label for="president2">Eren Jaeger</label><br />
+
+        <input
+        type="radio"
+        name="president"
+        value="matt_monroe"
+        id="president3"
+        />
+        <label for="president3">Matt Monroe</label><br />
+        <h2>Vice president</h2>
+        <input 
+        type="radio" 
+        name="vice_president" 
+        value="suzaku_kururugi"
+        id="vice1">
+        <label for="vice1">Suzaku kururugi</label><br />
+
+        <input 
+        type="radio" 
+        name="vice_president" 
+        value="ragna_crimson"
+        id="vice2">
+        <label for="vice2">ragna crimson</label><br />
+
+        <h2>Senator</h2>
+        <input 
+        type="checkbox" 
+        name="senator1"
+        id="senator1"
+        value="jill_valentine"
+        />
+        <label for="senator1">Jill Vallentine</label><br />
+
+        <input 
+        type="checkbox" 
+        name="senator2"
+        id="senator2"
+        value="baki_hanma"
+        />
+        <label for="senator2">Baki Hanma</label><br />
+
+        <input 
+        type="checkbox" 
+        name="senator3"
+        id="senator3"
+        value="tifa_lochart"
+        />
+        <label for="senator3">Tifa Lockhart</label><br />
+        <input type="submit" value="submit_ballot">
+
+        
+    </form>
+</body>
+</html>
